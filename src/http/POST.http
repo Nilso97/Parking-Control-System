@@ -1,0 +1,27 @@
+POST http://localhost:8081/parking-spot HTTP/1.1
+content-type: application/json
+
+{
+    "parkingSpotNumber": "205B",
+    "licensePlateCar": "RRs8562",
+    "brandCar": "audi",
+    "modelCar": "Q5",
+    "colorCar": "black",
+    "reponsibleName": "Carlos Daniel",
+    "apartament": "285",
+    "block": "8"
+}
+
+POST http://localhost:8081/parking-spot HTTP/1.1
+content-type: application/json
+
+{
+    "parkingSpotNumber": "110A",
+    "licensePlateCar": "AWS5822",
+    "brandCar": "Honda",
+    "modelCar": "New Civic",
+    "colorCar": "black",
+    "reponsibleName": "Pedro Souza",
+    "apartament": "125",
+    "block": "6"
+}
